@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contatos/styleContato.css">
+    <script src="contatos/scriptContato.js"></script>
+</head>
+<body id="body">
+    <header id="header">
+       <a href=""><img src="contatos/img/logo.png" alt="" id="logo"></a> 
+        <nav id="nav">
+            <button id="btn-mobile" onclick="toggleMenu()"> Menu
+                <span id="hamb"></span>
+            </button>
+            <ul id="menu">
+                <li> <a href="index.html">Início</a></li>
+                <li> <a href="manual.html">Manual de Sobrevivência</a></li>
+                <li> <a href="http://etecperuibe.com.br/wp-content/uploads/2022/07/Desenvolvimento-de-Sistemas-612_MTec-PI_1a-Serie_versao-provisoria_11-07-22-Plano-Novo.pdf">Plano de Curso</a></li>
+                <li> <a href="http://etecperuibe.com.br/etec-de-peruibe-2/">Saiba Mais </a></li>
+                <li> <a href="indexContato.html">Contato</a></li>
+                <li> <a href="#dark" onclick="trocadecor()">DarkMode</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contatoTitulo">
+        <p class="contatoTituloTexto">Abaixo teremos varias formas para você contatar a Etec de Peruíbe</p>
+    </div>
+
+    <section class="contato" id="box">
+        <div><img src="contatos/img/livro.png" class="contatoTituloImg"></div>
+        <div class="contatoBox">
+            <div>
+                <img src="contatos/img/localizacao.png" class="imgContato ImgIcone">
+                <p class="contatoConteudo">Endereço: Rua Allan Kardec, 1695, Baln. Três Marias, Peruíbe/SP</p>
+            </div>
+            <div>
+                <img src="contatos/img/telefone.png" class="imgContato ImgIcone">
+                <p class="contatoConteudo">(13) 3453-3584</p>
+            </div>
+                <img src="contatos/img/email.png" class="imgContato ImgIcone">
+                <p class="contatoConteudo">contato@etecperuibe.com.br</p>
+            <div>
+                <img src="contatos/img/localizacao.png" class="imgContato ImgIcone" onclick="siteEtec()">
+                <a class="contatoConteudo" onclick="siteEtec()">Acesse o site da etec clicando aqui!</a>
+            </div>
+            <div>
+                <img src="contatos/img/instagram.png" class="imgContato ImgIcone" onclick="Instagram()">
+                <a class="contatoConteudo" onclick="Instagram()">Acesse o nosso instagram clicando aqui!</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <a id="text">&copy; 1°DES/Turma 2022</a>  
+    </footer>
+</body>
+</html>
